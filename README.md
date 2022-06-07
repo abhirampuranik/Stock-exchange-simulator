@@ -35,8 +35,11 @@ Frontend :
 # How to run the project
 
 1. Clone this repository
-2. Head over to `StockExchangeSimulator` folder which will be Root Directory of the Project.
-3. Install [npm](https://nodejs.org/en/download/)
-4. In the Root directory of the project run ```npm install```
-5. Go into `Client` folder and run ```npm install```
-6. From the Root directory of the project launch terminal and run ``npm start``
+2. psql -U postgres -f "C:\Users\Abhiram Puranik\Documents\Stock-exchange-simulator\StockExchangeSimulator\config\stockExchange_DDL.sql"
+3. psql -U postgres -f "C:\Users\Abhiram Puranik\Documents\Stock-exchange-simulator\StockExchangeSimulator\config\stockExchange_DCL.sql"
+4. psql -U postgres -f "C:\Users\Abhiram Puranik\Documents\Stock-exchange-simulator\StockExchangeSimulator\config\stockExchange_DML.sql"
+5. Head over to `StockExchangeSimulator` folder which will be Root Directory of the Project.
+6. Install [npm](https://nodejs.org/en/download/)
+7. In the Root directory of the project run ```npm install```
+8. Go into `Client` folder and run ```npm install```
+9. From the Root directory of the project launch terminal and run ``npm start``
